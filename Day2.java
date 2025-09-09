@@ -1,5 +1,3 @@
-import java.util.Date;
-
 public class Day2 {
 
     public static void main(String[] args) {
@@ -24,7 +22,7 @@ public class Day2 {
         char kelas = 'B';
         int umur = 20;
         double tinggiBadan = 165.5;
-        Date tanggalSekarang = new Date();
+        
 
         // Mencetak tabel menggunakan printf , pakai |
         System.out.printf("| %-5s : %-18s |%n", "Nama", nama);
@@ -32,6 +30,5 @@ public class Day2 {
         System.out.printf("| %-5s : %-18c |%n", "Kelas", kelas);
         System.out.printf("| %-5s : %-18d |%n", "Umur", umur);
         System.out.printf("| %-5s : %-18.1f |%n", "TB", tinggiBadan);
-        System.out.printf("| %-5s : %-18tF |%n", "Tgl", tanggalSekarang);
     }
 }
