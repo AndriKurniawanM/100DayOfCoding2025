@@ -13,7 +13,7 @@ public class Day2 {
         System.out.println("--- SOAL 2 ---");
         System.out.print("Selamat telah menjadi ");
         System.out.print("anggota ISC");
-        System.out.println(""); // Memberi 2x baris baru agar rapi
+        System.out.println(""); // Memberi 1x baris baru agar rapi
 
         // Soal 3: Menggunakan System.out.printf()
         System.out.println("--- SOAL 3 ---");
